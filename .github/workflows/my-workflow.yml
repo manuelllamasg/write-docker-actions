@@ -13,6 +13,10 @@ jobs:
 
       - name: hello-action
         uses: ./.github/actions/hello-world
+        with:
+          firstGreeting: "Manolo"
+          secondGreeting: "Pepito"
+          thirdGreeting: "Juanito"
 
       - name: meow
         uses: ./.github/actions/cat-facts
