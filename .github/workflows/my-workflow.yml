@@ -20,3 +20,4 @@ jobs:
 
       - name: meow
         uses: ./.github/actions/cat-facts
+
